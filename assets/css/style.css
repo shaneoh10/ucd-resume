@@ -357,7 +357,7 @@ footer {
 button[type="submit"] {
     margin-top: 15px;
     margin-bottom: 20px;
-    color #fafafa;
+    color: #fafafa;
     background-color: #e84610;
 }
 
@@ -368,6 +368,6 @@ button[type="submit"] {
         padding-top: 30px;
         min-height: 240px;
         margin: 0 auto;
-        max-width: 0%;
+        max-width: 50%;
     }
 }
