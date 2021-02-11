@@ -7,6 +7,7 @@ function sendMail(contactForm) {
     .then(
         function(response) {
             console.log('SUCCESS', response);
+            document.getElementById('form').innerHTML = `<h2>Thanks for your message!</h2>`;
         },
         function(error) {
             console.log('FAILED', error);
